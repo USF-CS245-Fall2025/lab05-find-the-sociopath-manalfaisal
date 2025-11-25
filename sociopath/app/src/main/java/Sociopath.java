@@ -1,7 +1,5 @@
-import java.util.List;
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class Sociopath {
 
@@ -139,6 +137,6 @@ public class Sociopath {
 		//Test 17: Pair contains zero (expect -1)
 		List<int[]> test18 = new ArrayList<>();
 		test18.add(new int[]{0, 2});
-		System.out.println(s.findTheSociopath(4, test18));		
+		System.out.println(s.findTheSociopath(4, test18));			
 	}
 }
